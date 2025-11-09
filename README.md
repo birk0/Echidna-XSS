@@ -9,8 +9,9 @@ Flag location: /admin
 ## Build Instructions:
 
 1. Clone the repository
-2. Run `docker compose build && docker compose up`
-3. Access the site at http://localhost:8000
+2. Navigate to `Echidna-XSS`
+3. Run `docker compose build && docker compose up`
+4. Access the site at http://localhost:8000
 
 ## Writeup
 
