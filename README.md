@@ -2,6 +2,8 @@
 
 The Echidna Job Board accepts job applications where users can fill out their name, email and resume. Unfortunately, applicant input is not sanitised. A potential applicant can abuse this to inject JavaScript into a hiring manager's browser session, giving access to the admin dashboard which contains the flag.
 
+To simulate this, there is a script within the container using a playwright headless browser that navigates to the /applications endpoint every ~15 seconds.
+
 Flag location: /admin
 
 ## Build Instructions:
