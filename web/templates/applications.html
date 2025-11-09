@@ -1,0 +1,19 @@
+<!doctype html>
+<html>
+    <head><title>Applications</title></head>
+    <body>
+        <h1>Submitted Applications</h1>
+        {% for a in apps %}
+            <div style="border:1px solid #ccc; padding:8px; margin:8px;">
+                <strong>{{a.name}}</strong> ({{a.email}}) — {{a.ts}}<br>
+                <div>{{ a.resume|safe }}</div>
+            </div>
+            
+            {% else %}
+            <p>No applications yet.</p>
+        
+        {% endfor %}
+        
+        <p><a href="/">Back</a></p>
+    </body>
+</html>

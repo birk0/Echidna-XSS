@@ -1,0 +1,89 @@
+
+body {
+    font-family: "Inter", "Segoe UI", Roboto, sans-serif;
+    background: #f7f8fb;
+    color: #333;
+    margin: 0;
+    padding: 0;
+  }
+  body > * {
+    max-width: 700px;
+    margin: 3rem auto;
+    padding: 0 1.5rem;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #222;
+    font-weight: 600;
+    margin-bottom: 1rem;
+  }
+
+  a {
+    color: #1a73e8;
+    text-decoration: none;
+    font-weight: 500;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+ 
+  p a {
+    margin: 0 0.4rem;
+  }
+
+  form {
+    background: #fff;
+    padding: 1.5rem 2rem;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+  }
+  
+  label {
+    display: block;
+    margin: 1rem 0 0.5rem;
+    font-weight: 500;
+  }
+  
+  input[type="text"], input[type="email"], textarea {
+    width: 100%;
+    padding: 0.6rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 1rem;
+    transition: border 0.2s ease;
+  }
+  
+  input:focus, textarea:focus {
+    border-color: #1a73e8;
+    outline: none;
+  }
+  
+  button {
+    background: #1a73e8;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 0.7rem 1.4rem;
+    margin-top: 1.2rem;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.2s ease;
+  }
+  
+  button:hover {
+    background: #166ad4;
+  }
+  
+  p {
+    text-align: center;
+    margin-top: 2rem;
+    color: #555;
+  }
+  .container {
+    background: white;
+    padding: 2rem;
+    border-radius: 14px;
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.05);
+  }
